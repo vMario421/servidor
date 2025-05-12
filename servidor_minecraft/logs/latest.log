@@ -40,3 +40,27 @@
 [18:17:09] [Server thread/INFO]: Mafiaraid00[/127.11.147.101:49217] logged in with entity id 370 at ([world]122.88654923988456, 65.02828343880601, -62.70556957214024)
 [18:21:36] [Server thread/INFO]: Paz082 was slain by Zombie
 [18:21:53] [Server thread/INFO]: Mafiaraid00 was slain by Zombie
+[18:32:56] [Server thread/INFO]: Mafiaraid00 issued server command: /back
+[18:33:13] [Server thread/INFO]: Mafiaraid00 issued server command: /ban Paz082 PUTA, MINTIO
+[18:33:13] [Server thread/INFO]: [Mafiaraid00: Banned Paz082: PUTA, MINTIO]
+[18:33:13] [Server thread/INFO]: Paz082 lost connection: You are banned from this server
+[18:33:13] [Server thread/INFO]: Paz082 left the game
+[18:33:20] [User Authenticator #1/INFO]: UUID of player Paz082 is aeea0496-ed3f-3822-a5b9-82c0c2aa7dca
+[18:33:20] [Server thread/INFO]: Disconnecting Paz082 (/127.11.147.101:40933): You are banned from this server.
+Reason: PUTA, MINTIO
+[18:33:20] [Server thread/INFO]: Paz082 (/127.11.147.101:40933) lost connection: You are banned from this server.
+Reason: PUTA, MINTIO
+[18:33:25] [Server thread/INFO]: Mafiaraid00 issued server command: /gamemode creative
+[18:33:25] [Server thread/INFO]: [Mafiaraid00: Set own game mode to Creative Mode]
+[18:33:25] [User Authenticator #1/INFO]: UUID of player Paz082 is aeea0496-ed3f-3822-a5b9-82c0c2aa7dca
+[18:33:25] [Server thread/INFO]: Disconnecting Paz082 (/127.11.147.101:57699): You are banned from this server.
+Reason: PUTA, MINTIO
+[18:33:26] [Server thread/INFO]: Paz082 (/127.11.147.101:57699) lost connection: You are banned from this server.
+Reason: PUTA, MINTIO
+[18:34:52] [User Authenticator #2/INFO]: UUID of player Paz082 is aeea0496-ed3f-3822-a5b9-82c0c2aa7dca
+[18:34:52] [Server thread/INFO]: Disconnecting Paz082 (/127.11.147.101:41857): You are banned from this server.
+Reason: PUTA, MINTIO
+[18:34:52] [Server thread/INFO]: Paz082 (/127.11.147.101:41857) lost connection: You are banned from this server.
+Reason: PUTA, MINTIO
+[18:35:38] [Server thread/INFO]: Mafiaraid00 issued server command: /pardon Paz082
+[18:35:38] [Server thread/INFO]: [Mafiaraid00: Unbanned Paz082]
