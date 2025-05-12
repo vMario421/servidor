@@ -1,92 +1,72 @@
-[18:15:56] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[18:16:01] [ServerMain/INFO]: Loaded 1174 recipes
-[18:16:01] [ServerMain/INFO]: Loaded 1271 advancements
-[18:16:01] [Server thread/INFO]: Starting minecraft server version 1.20.4
-[18:16:01] [Server thread/INFO]: Loading properties
-[18:16:02] [Server thread/INFO]: This server is running Paper version git-Paper-497 (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT) (Git: d8d54d9 on ver/1.20.4)
-[18:16:03] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[18:16:03] [Server thread/INFO]: Using 4 threads for Netty based IO
-[18:16:03] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+[18:53:41] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[18:53:45] [ServerMain/INFO]: Loaded 1174 recipes
+[18:53:45] [ServerMain/INFO]: Loaded 1271 advancements
+[18:53:45] [Server thread/INFO]: Starting minecraft server version 1.20.4
+[18:53:45] [Server thread/INFO]: Loading properties
+[18:53:46] [Server thread/INFO]: This server is running Paper version git-Paper-497 (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT) (Git: d8d54d9 on ver/1.20.4)
+[18:53:47] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[18:53:47] [Server thread/INFO]: Using 4 threads for Netty based IO
+[18:53:47] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
     We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
     For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[18:16:03] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
-[18:16:04] [Server thread/INFO]: Default game type: SURVIVAL
-[18:16:04] [Server thread/INFO]: Generating keypair
-[18:16:04] [Server thread/INFO]: Starting Minecraft server on *:25565
-[18:16:04] [Server thread/INFO]: Using epoll channel type
-[18:16:05] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[18:16:05] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[18:16:05] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[18:16:05] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[18:16:05] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[18:16:05] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[18:16:05] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[18:16:05] [Server thread/INFO]: Preparing level "world"
-[18:16:05] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[18:16:07] [Server thread/INFO]: Time elapsed: 1620 ms
-[18:16:07] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[18:16:07] [Server thread/INFO]: Time elapsed: 98 ms
-[18:16:07] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[18:16:07] [Server thread/INFO]: Time elapsed: 39 ms
-[18:16:07] [Server thread/INFO]: Running delayed init tasks
-[18:16:07] [Server thread/INFO]: Done (5.927s)! For help, type "help"
-[18:16:07] [Server thread/INFO]: Timings Reset
-[18:16:49] [User Authenticator #0/INFO]: UUID of player Paz082 is aeea0496-ed3f-3822-a5b9-82c0c2aa7dca
-[18:16:52] [Server thread/INFO]: Paz082 joined the game
-[18:16:52] [Server thread/INFO]: Paz082[/127.11.147.101:46349] logged in with entity id 243 at ([world]109.99054440816822, 63.0, -74.69999998807907)
-[18:17:05] [Server thread/INFO]: Paz082 suffocated in a wall
-[18:17:08] [User Authenticator #0/INFO]: UUID of player Mafiaraid00 is a1367621-738f-388f-8016-764ea77b0f1e
-[18:17:09] [Server thread/INFO]: Mafiaraid00 joined the game
-[18:17:09] [Server thread/INFO]: Mafiaraid00[/127.11.147.101:49217] logged in with entity id 370 at ([world]122.88654923988456, 65.02828343880601, -62.70556957214024)
-[18:21:36] [Server thread/INFO]: Paz082 was slain by Zombie
-[18:21:53] [Server thread/INFO]: Mafiaraid00 was slain by Zombie
-[18:32:56] [Server thread/INFO]: Mafiaraid00 issued server command: /back
-[18:33:13] [Server thread/INFO]: Mafiaraid00 issued server command: /ban Paz082 PUTA, MINTIO
-[18:33:13] [Server thread/INFO]: [Mafiaraid00: Banned Paz082: PUTA, MINTIO]
-[18:33:13] [Server thread/INFO]: Paz082 lost connection: You are banned from this server
-[18:33:13] [Server thread/INFO]: Paz082 left the game
-[18:33:20] [User Authenticator #1/INFO]: UUID of player Paz082 is aeea0496-ed3f-3822-a5b9-82c0c2aa7dca
-[18:33:20] [Server thread/INFO]: Disconnecting Paz082 (/127.11.147.101:40933): You are banned from this server.
-Reason: PUTA, MINTIO
-[18:33:20] [Server thread/INFO]: Paz082 (/127.11.147.101:40933) lost connection: You are banned from this server.
-Reason: PUTA, MINTIO
-[18:33:25] [Server thread/INFO]: Mafiaraid00 issued server command: /gamemode creative
-[18:33:25] [Server thread/INFO]: [Mafiaraid00: Set own game mode to Creative Mode]
-[18:33:25] [User Authenticator #1/INFO]: UUID of player Paz082 is aeea0496-ed3f-3822-a5b9-82c0c2aa7dca
-[18:33:25] [Server thread/INFO]: Disconnecting Paz082 (/127.11.147.101:57699): You are banned from this server.
-Reason: PUTA, MINTIO
-[18:33:26] [Server thread/INFO]: Paz082 (/127.11.147.101:57699) lost connection: You are banned from this server.
-Reason: PUTA, MINTIO
-[18:34:52] [User Authenticator #2/INFO]: UUID of player Paz082 is aeea0496-ed3f-3822-a5b9-82c0c2aa7dca
-[18:34:52] [Server thread/INFO]: Disconnecting Paz082 (/127.11.147.101:41857): You are banned from this server.
-Reason: PUTA, MINTIO
-[18:34:52] [Server thread/INFO]: Paz082 (/127.11.147.101:41857) lost connection: You are banned from this server.
-Reason: PUTA, MINTIO
-[18:35:38] [Server thread/INFO]: Mafiaraid00 issued server command: /pardon Paz082
-[18:35:38] [Server thread/INFO]: [Mafiaraid00: Unbanned Paz082]
-[18:35:58] [User Authenticator #3/INFO]: UUID of player Paz082 is aeea0496-ed3f-3822-a5b9-82c0c2aa7dca
-[18:36:00] [Server thread/INFO]: Paz082 joined the game
-[18:36:00] [Server thread/INFO]: Paz082[/127.11.147.101:46111] logged in with entity id 2671 at ([world]279.6282276889873, 71.0, -39.56112965236864)
-[18:36:17] [Server thread/INFO]: Mafiaraid00 issued server command: /tp Paz082 Mafiaraid00
-[18:36:17] [Server thread/INFO]: [Mafiaraid00: Teleported Paz082 to Mafiaraid00]
-[18:37:30] [Server thread/INFO]: Paz082 was doomed to fall by Mafiaraid00
-[18:37:54] [Server thread/INFO]: Mafiaraid00 issued server command: /tp Paz082 Mafiaraid00
-[18:37:54] [Server thread/INFO]: [Mafiaraid00: Teleported Paz082 to Mafiaraid00]
-[18:38:33] [Server thread/INFO]: Mafiaraid00 has made the advancement [Spooky Scary Skeleton]
-[18:39:09] [Server thread/INFO]: Paz082 has made the advancement [Withering Heights]
-[18:39:09] [Server thread/INFO]: Mafiaraid00 has made the advancement [Withering Heights]
-[18:39:23] [Server thread/INFO]: Paz082 was doomed to fall by Wither
-[18:39:32] [Server thread/INFO]: Mafiaraid00 issued server command: /tp Paz082 Mafiaraid00
-[18:39:32] [Server thread/INFO]: [Mafiaraid00: Teleported Paz082 to Mafiaraid00]
-[18:39:52] [Server thread/INFO]: Paz082 has made the advancement [Acquire Hardware]
-[18:39:56] [Server thread/INFO]: Mafiaraid00 issued server command: /time set day
-[18:39:56] [Server thread/INFO]: [Mafiaraid00: Set the time to 1000]
-[18:41:52] [Server thread/INFO]: Mafiaraid00 issued server command: /tp Paz082 Mafiaraid00
-[18:41:52] [Server thread/INFO]: [Mafiaraid00: Teleported Paz082 to Mafiaraid00]
-[18:43:32] [Server thread/INFO]: Mafiaraid00 issued server command: /tp Paz082 Mafiaraid00
-[18:43:32] [Server thread/INFO]: [Mafiaraid00: Teleported Paz082 to Mafiaraid00]
-[18:44:49] [Server thread/INFO]: Mafiaraid00 issued server command: /tp Paz082 Mafiaraid00
-[18:44:49] [Server thread/INFO]: [Mafiaraid00: Teleported Paz082 to Mafiaraid00]
-[18:44:58] [Server thread/INFO]: Paz082 fell from a high place
-[18:45:11] [Server thread/INFO]: Mafiaraid00 issued server command: /tp Paz082 Mafiaraid00
-[18:45:11] [Server thread/INFO]: [Mafiaraid00: Teleported Paz082 to Mafiaraid00]
+[18:53:47] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[18:53:48] [Server thread/INFO]: Default game type: SURVIVAL
+[18:53:48] [Server thread/INFO]: Generating keypair
+[18:53:48] [Server thread/INFO]: Starting Minecraft server on *:25565
+[18:53:48] [Server thread/INFO]: Using epoll channel type
+[18:53:48] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[18:53:48] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[18:53:48] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[18:53:48] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[18:53:48] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[18:53:48] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[18:53:48] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[18:53:48] [Server thread/INFO]: Preparing level "world"
+[18:53:49] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[18:53:49] [Server thread/INFO]: Time elapsed: 438 ms
+[18:53:49] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[18:53:51] [Server thread/INFO]: Time elapsed: 1453 ms
+[18:53:51] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[18:53:51] [Server thread/INFO]: Time elapsed: 44 ms
+[18:53:51] [Server thread/INFO]: Running delayed init tasks
+[18:53:51] [Server thread/INFO]: Done (5.434s)! For help, type "help"
+[18:53:51] [Server thread/INFO]: Timings Reset
+[18:53:59] [User Authenticator #0/INFO]: UUID of player Paz082 is aeea0496-ed3f-3822-a5b9-82c0c2aa7dca
+[18:54:00] [Server thread/INFO]: Paz082 joined the game
+[18:54:00] [Server thread/INFO]: Paz082[/127.11.147.101:45491] logged in with entity id 250 at ([world]131.64618131922322, 66.0, -77.69999998807907)
+[18:54:03] [User Authenticator #0/INFO]: UUID of player Mafiaraid00 is a1367621-738f-388f-8016-764ea77b0f1e
+[18:54:04] [Server thread/INFO]: Mafiaraid00 joined the game
+[18:54:04] [Server thread/INFO]: Mafiaraid00[/127.11.147.101:56191] logged in with entity id 259 at ([world]160.95172310702438, 83.0, -97.4820704505776)
+[18:54:14] [Server thread/INFO]: Mafiaraid00 issued server command: /gamemode creative
+[18:54:14] [Server thread/INFO]: [Mafiaraid00: Set own game mode to Creative Mode]
+[18:54:35] [Server thread/INFO]: Mafiaraid00 issued server command: /setworldspawn 131 70 -67
+[18:54:35] [Server thread/INFO]: [Mafiaraid00: Set the world spawn point to 131, 70, -67 [0.0]]
+[18:56:12] [Server thread/INFO]: Paz082 was slain by Mafiaraid00
+[18:56:55] [Server thread/INFO]: Mafiaraid00 issued server command: /gamemode survival
+[18:56:55] [Server thread/INFO]: [Mafiaraid00: Set own game mode to Survival Mode]
+[18:56:59] [Server thread/INFO]: Mafiaraid00 issued server command: /gamemode spectator
+[18:56:59] [Server thread/INFO]: [Mafiaraid00: Set own game mode to Spectator Mode]
+[18:57:08] [Server thread/INFO]: Mafiaraid00 issued server command: /tp Paz082 Mafiaraid00
+[18:57:08] [Server thread/INFO]: [Mafiaraid00: Teleported Paz082 to Mafiaraid00]
+[18:57:10] [Server thread/INFO]: Mafiaraid00 issued server command: /tp Paz082 Mafiaraid00
+[18:57:10] [Server thread/INFO]: [Mafiaraid00: Teleported Paz082 to Mafiaraid00]
+[18:57:26] [Server thread/INFO]: Mafiaraid00 issued server command: /gamemode survival
+[18:57:26] [Server thread/INFO]: [Mafiaraid00: Set own game mode to Survival Mode]
+[18:57:28] [Server thread/INFO]: Mafiaraid00 issued server command: /gamemode creative
+[18:57:28] [Server thread/INFO]: [Mafiaraid00: Set own game mode to Creative Mode]
+[18:58:14] [Server thread/INFO]: Mafiaraid00 issued server command: /tp Paz082 Mafiaraid00
+[18:58:14] [Server thread/INFO]: [Mafiaraid00: Teleported Paz082 to Mafiaraid00]
+[18:59:59] [Server thread/INFO]: Paz082 has reached the goal [Postmortal]
+[19:00:57] [Server thread/INFO]: Paz082 drowned while trying to escape Mafiaraid00
+[19:01:34] [Server thread/INFO]: Mafiaraid00 issued server command: /tp Paz082 Mafiaraid00
+[19:01:34] [Server thread/INFO]: [Mafiaraid00: Teleported Paz082 to Mafiaraid00]
+[19:01:56] [Server thread/INFO]: Mafiaraid00 issued server command: /tp Paz082 0 0 5
+[19:01:56] [Server thread/INFO]: [Mafiaraid00: Teleported Paz082 to 0.500000, 0.000000, 5.500000]
+[19:02:08] [Server thread/INFO]: Mafiaraid00 issued server command: /tp Paz082 Mafiaraid00
+[19:02:08] [Server thread/INFO]: [Mafiaraid00: Teleported Paz082 to Mafiaraid00]
+[19:02:48] [Server thread/INFO]: Mafiaraid00 issued server command: /gamemode spectator
+[19:02:48] [Server thread/INFO]: [Mafiaraid00: Set own game mode to Spectator Mode]
+[19:02:55] [Server thread/INFO]: Mafiaraid00 issued server command: /gamemode survival
+[19:02:55] [Server thread/INFO]: [Mafiaraid00: Set own game mode to Survival Mode]
+[19:02:58] [Server thread/INFO]: Mafiaraid00 issued server command: /gamemode creative
+[19:02:58] [Server thread/INFO]: [Mafiaraid00: Set own game mode to Creative Mode]

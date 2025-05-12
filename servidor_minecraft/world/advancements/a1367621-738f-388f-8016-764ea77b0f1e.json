@@ -779,12 +779,6 @@
     },
     "done": true
   },
-  "minecraft:nether/get_wither_skull": {
-    "criteria": {
-      "wither_skull": "2025-05-12 18:38:33 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/soul_campfire": {
     "criteria": {
       "has_soul_sand": "2025-05-12 18:38:27 +0000"
@@ -797,15 +791,33 @@
     },
     "done": true
   },
-  "minecraft:nether/summon_wither": {
+  "minecraft:nether/get_wither_skull": {
     "criteria": {
-      "summoned": "2025-05-12 18:39:09 +0000"
+      "wither_skull": "2025-05-12 18:38:33 +0000"
     },
     "done": true
   },
   "minecraft:recipes/misc/skull_banner_pattern": {
     "criteria": {
       "has_wither_skeleton_skull": "2025-05-12 18:38:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/summon_wither": {
+    "criteria": {
+      "summoned": "2025-05-12 18:39:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/packed_ice": {
+    "criteria": {
+      "has_ice": "2025-05-12 18:44:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blue_ice": {
+    "criteria": {
+      "has_packed_ice": "2025-05-12 18:44:46 +0000"
     },
     "done": true
   },
