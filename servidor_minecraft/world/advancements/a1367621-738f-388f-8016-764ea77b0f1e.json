@@ -10,6 +10,7 @@
       "minecraft:beach": "2025-05-12 17:50:07 +0000",
       "minecraft:forest": "2025-05-12 17:08:28 +0000",
       "minecraft:ocean": "2025-05-12 17:17:25 +0000",
+      "minecraft:river": "2025-05-12 18:33:47 +0000",
       "minecraft:plains": "2025-05-12 17:02:48 +0000"
     },
     "done": false
@@ -760,7 +761,9 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
-      "minecraft:wither_skeleton": "2025-05-12 18:07:10 +0000"
+      "minecraft:wither_skeleton": "2025-05-12 18:07:10 +0000",
+      "minecraft:zombie": "2025-05-12 18:39:52 +0000",
+      "minecraft:wither": "2025-05-12 18:39:25 +0000"
     },
     "done": false
   },
@@ -773,6 +776,36 @@
   "minecraft:recipes/misc/bone_meal": {
     "criteria": {
       "has_bone": "2025-05-12 18:07:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/get_wither_skull": {
+    "criteria": {
+      "wither_skull": "2025-05-12 18:38:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/soul_campfire": {
+    "criteria": {
+      "has_soul_sand": "2025-05-12 18:38:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/soul_torch": {
+    "criteria": {
+      "has_soul_sand": "2025-05-12 18:38:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/summon_wither": {
+    "criteria": {
+      "summoned": "2025-05-12 18:39:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/skull_banner_pattern": {
+    "criteria": {
+      "has_wither_skeleton_skull": "2025-05-12 18:38:33 +0000"
     },
     "done": true
   },
