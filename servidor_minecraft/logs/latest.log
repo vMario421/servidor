@@ -1,73 +1,42 @@
-[17:21:48] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[17:21:50] [ServerMain/INFO]: Loaded 1174 recipes
-[17:21:51] [ServerMain/INFO]: Loaded 1271 advancements
-[17:21:51] [Server thread/INFO]: Starting minecraft server version 1.20.4
-[17:21:51] [Server thread/INFO]: Loading properties
-[17:21:51] [Server thread/INFO]: This server is running Paper version git-Paper-497 (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT) (Git: d8d54d9 on ver/1.20.4)
-[17:21:52] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[17:21:52] [Server thread/INFO]: Using 4 threads for Netty based IO
-[17:21:52] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+[18:15:56] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[18:16:01] [ServerMain/INFO]: Loaded 1174 recipes
+[18:16:01] [ServerMain/INFO]: Loaded 1271 advancements
+[18:16:01] [Server thread/INFO]: Starting minecraft server version 1.20.4
+[18:16:01] [Server thread/INFO]: Loading properties
+[18:16:02] [Server thread/INFO]: This server is running Paper version git-Paper-497 (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT) (Git: d8d54d9 on ver/1.20.4)
+[18:16:03] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[18:16:03] [Server thread/INFO]: Using 4 threads for Netty based IO
+[18:16:03] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
     We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
     For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[17:21:52] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
-[17:21:52] [Server thread/INFO]: Default game type: SURVIVAL
-[17:21:52] [Server thread/INFO]: Generating keypair
-[17:21:52] [Server thread/INFO]: Starting Minecraft server on *:25565
-[17:21:52] [Server thread/INFO]: Using epoll channel type
-[17:21:52] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[17:21:52] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[17:21:53] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[17:21:53] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[17:21:53] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[17:21:53] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[17:21:53] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[17:21:53] [Server thread/INFO]: Preparing level "world"
-[17:21:53] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[17:21:53] [Server thread/INFO]: Time elapsed: 270 ms
-[17:21:53] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[17:21:53] [Server thread/INFO]: Time elapsed: 124 ms
-[17:21:53] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[17:21:53] [Server thread/INFO]: Time elapsed: 40 ms
-[17:21:54] [Server thread/INFO]: Running delayed init tasks
-[17:21:54] [Server thread/INFO]: Done (2.837s)! For help, type "help"
-[17:21:54] [Server thread/INFO]: Timings Reset
-[17:22:24] [User Authenticator #0/INFO]: UUID of player Paz082 is aeea0496-ed3f-3822-a5b9-82c0c2aa7dca
-[17:22:25] [Server thread/INFO]: Paz082 joined the game
-[17:22:25] [Server thread/INFO]: Paz082[/127.11.147.101:39551] logged in with entity id 299 at ([world]212.9101842883056, 79.0, -54.57836332990791)
-[17:22:29] [User Authenticator #0/INFO]: UUID of player Mafiaraid00 is a1367621-738f-388f-8016-764ea77b0f1e
-[17:22:29] [Server thread/INFO]: Mafiaraid00 joined the game
-[17:22:30] [Server thread/INFO]: Mafiaraid00[/127.11.147.101:36347] logged in with entity id 318 at ([world]87.04619690223326, 74.59309369032114, 108.94653742695046)
-[17:22:49] [Server thread/INFO]: Mafiaraid00 issued server command: /pl
-[17:22:56] [Server thread/INFO]: Mafiaraid00 issued server command: /plugins
-[17:26:26] [Server thread/INFO]: Mafiaraid00 issued server command: /gamemode survival
-[17:26:26] [Server thread/INFO]: [Mafiaraid00: Set own game mode to Survival Mode]
-[17:26:58] [Server thread/INFO]: Paz082 was slain by Zombie
-[17:28:28] [Server thread/INFO]: Paz082 lost connection: Disconnected
-[17:28:28] [Server thread/INFO]: Paz082 left the game
-[17:28:28] [Server thread/INFO]: Mafiaraid00 lost connection: Disconnected
-[17:28:28] [Server thread/INFO]: Mafiaraid00 left the game
-[17:28:28] [Server thread/INFO]: Stopping server
-[17:28:28] [Server thread/INFO]: Saving players
-[17:28:28] [Server thread/INFO]: Saving worlds
-[17:28:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[17:28:28] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[17:28:28] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[17:28:28] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[17:28:28] [Server thread/INFO]: [ChunkHolderManager] Saved 120 block chunks, 205 entity chunks, 0 poi chunks in world 'world' in 0.16s
-[17:28:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[17:28:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[17:28:28] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[17:28:28] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[17:28:28] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[17:28:28] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 16 entity chunks, 0 poi chunks in world 'world_nether' in 0.01s
-[17:28:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[17:28:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[17:28:28] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[17:28:28] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[17:28:28] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[17:28:28] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
-[17:28:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[17:28:28] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[17:28:28] [Server thread/INFO]: Flushing Chunk IO
-[17:28:28] [Server thread/INFO]: Closing Thread Pool
-[17:28:28] [Server thread/INFO]: Closing Server
+[18:16:03] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[18:16:04] [Server thread/INFO]: Default game type: SURVIVAL
+[18:16:04] [Server thread/INFO]: Generating keypair
+[18:16:04] [Server thread/INFO]: Starting Minecraft server on *:25565
+[18:16:04] [Server thread/INFO]: Using epoll channel type
+[18:16:05] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[18:16:05] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[18:16:05] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[18:16:05] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[18:16:05] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[18:16:05] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[18:16:05] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[18:16:05] [Server thread/INFO]: Preparing level "world"
+[18:16:05] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[18:16:07] [Server thread/INFO]: Time elapsed: 1620 ms
+[18:16:07] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[18:16:07] [Server thread/INFO]: Time elapsed: 98 ms
+[18:16:07] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[18:16:07] [Server thread/INFO]: Time elapsed: 39 ms
+[18:16:07] [Server thread/INFO]: Running delayed init tasks
+[18:16:07] [Server thread/INFO]: Done (5.927s)! For help, type "help"
+[18:16:07] [Server thread/INFO]: Timings Reset
+[18:16:49] [User Authenticator #0/INFO]: UUID of player Paz082 is aeea0496-ed3f-3822-a5b9-82c0c2aa7dca
+[18:16:52] [Server thread/INFO]: Paz082 joined the game
+[18:16:52] [Server thread/INFO]: Paz082[/127.11.147.101:46349] logged in with entity id 243 at ([world]109.99054440816822, 63.0, -74.69999998807907)
+[18:17:05] [Server thread/INFO]: Paz082 suffocated in a wall
+[18:17:08] [User Authenticator #0/INFO]: UUID of player Mafiaraid00 is a1367621-738f-388f-8016-764ea77b0f1e
+[18:17:09] [Server thread/INFO]: Mafiaraid00 joined the game
+[18:17:09] [Server thread/INFO]: Mafiaraid00[/127.11.147.101:49217] logged in with entity id 370 at ([world]122.88654923988456, 65.02828343880601, -62.70556957214024)
+[18:21:36] [Server thread/INFO]: Paz082 was slain by Zombie
+[18:21:53] [Server thread/INFO]: Mafiaraid00 was slain by Zombie
